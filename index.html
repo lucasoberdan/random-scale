@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Randon Scale</title>
+  <title>Random Scale</title>
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-<div id="container">
-  <h1>Que escala devo tocar?</h1>
-  
-  <h3 id="resposta"></h3>
+  <div id="container">
+    <h1>Que escala devo tocar?</h1>
 
-  <div class="botoes">
-    <button id="buttonB" class="bemol botao" onclick="escolherEscalaB()">b</button>
-    <button id="buttonS" class="sustenido botao" onclick="escolherEscalaS()">#</button>
+    <h3 id="resposta"></h3>
+
+    <div class="botoes">
+      <button id="buttonMaior" class="maior botao" onclick="escolherEscalaMaior()">Escala Maior</button>
+      <button id="buttonMenor" class="menor botao" onclick="escolherEscalaMenor()">Escala Menor</button>
+      <button id="buttonRelativa" class="relativa botao" onclick="escolherEscalaRelativa()">Escala Relativa</button>
+    </div>
   </div>
-</div>
 
-<script src="./script.js"></script>
+  <script src="./script.js"></script>
 </body>
+
 </html>
