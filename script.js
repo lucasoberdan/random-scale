@@ -37,6 +37,7 @@ const escalasMenores = [
 ];
 
 function escolherEscalaMaior() {
+  escalaMenor = false; 
   escalaMaior = true; // Sem palavra reservada para poder chamar ele fora da função
   const totalEscalasMaiores = escalasMaiores.length;
   numeroAleatorioMaiores = Math.floor(Math.random() * totalEscalasMaiores); // Sem palavra reservada para poder chamar ele fora da função
@@ -45,6 +46,7 @@ function escolherEscalaMaior() {
 }
 
 function escolherEscalaMenor() {
+  escalaMaior = false;
   escalaMenor = true; // Sem palavra reservada para poder chamar ele fora da função
   const totalEscalasMenores = escalasMenores.length;
   numeroAleatorioMenores = Math.floor(Math.random() * totalEscalasMenores); // Sem palavra reservada para poder chamar ele fora da função
